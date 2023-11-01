@@ -30,3 +30,17 @@
     color: #1A1A1A;
     font-weight: bold; 
 }
+.navigation-holder {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.nav-links {
+    text-decoration: none;
+    color: #D1D1D1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}

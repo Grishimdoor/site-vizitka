@@ -322,6 +322,9 @@
     letter-spacing: 0.5px;
     color: #9A9A9B;
 }
+.mob-btn {
+    display: none;
+}
 @media (max-width: 1120px) {
     .container {
         padding: 0 20px;
@@ -408,7 +411,4 @@
     .course-name {
         font-size: 24px;
     }
-}
-.mob-btn {
-    display: none;
 }

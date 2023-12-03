@@ -84,12 +84,20 @@
     font-weight: bold;
     border-radius: 6px;
 }
+.join:hover {
+    transition: 2s;
+    transform: translate(1000px, 0px)
+}
 .header-info-block {
     display: flex;
     justify-content: space-between;
 }
 .card-info {
     max-width: 361px;
+    transition: 1s;
+}
+.card-info:hover {
+    transform: rotate(180deg)
 }
 .card-info-img {
     display: flex;
@@ -194,6 +202,10 @@
     justify-content: center;
     position: relative;
 }
+.audio-holder:hover {
+    transition: 1s;
+    transform: scale(5, 2);
+}
 .time {
     color: #fff;
     position: absolute;
@@ -272,6 +284,10 @@
 }
 .img-card-2 {
     background-image: url(./img/card-2.png);
+}
+.img-card-2:hover {
+    transition: 0.6s;
+    transform: skew(-38deg, 20deg)
 }
 .img-card-3 {
     background-image: url(./img/francee.jpg);
